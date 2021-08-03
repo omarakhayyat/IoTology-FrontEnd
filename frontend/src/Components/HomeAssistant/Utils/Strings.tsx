@@ -1300,8 +1300,7 @@ const data = {
               },
               server_management: {
                 heading: "Server management",
-                introduction:
-                  "Control your IoTology server… from IoTology.",
+                introduction: "Control your IoTology server… from IoTology.",
                 restart: "Restart",
                 stop: "Stop",
               },
@@ -1423,8 +1422,7 @@ const data = {
           picker: {
             disable_selected: {
               button: "Disable selected",
-              confirm_text:
-                "Disabled entities will not be added to IoTology.",
+              confirm_text: "Disabled entities will not be added to IoTology.",
               confirm_title: "Do you want to disable {number} entities?",
             },
             enable_selected: {
@@ -1759,12 +1757,10 @@ const data = {
               zone: "Reload zones",
             },
             server_management: {
-              confirm_restart:
-                "Are you sure you want to restart IoTology?",
+              confirm_restart: "Are you sure you want to restart IoTology?",
               confirm_stop: "Are you sure you want to stop IoTology?",
               heading: "Server management",
-              introduction:
-                "Control your IoTology server… from IoTology.",
+              introduction: "Control your IoTology server… from IoTology.",
               restart: "Restart",
               stop: "Stop",
             },
@@ -2130,8 +2126,7 @@ const data = {
             copy_entity_id: "Copy ID",
             copy_entity_state: "Copy state",
             current_entities: "Current entities",
-            description1:
-              "Set the representation of a device within IoTology.",
+            description1: "Set the representation of a device within IoTology.",
             description2: "This will not communicate with the actual device.",
             entity: "Entity",
             filter_attributes: "Filter attributes",
