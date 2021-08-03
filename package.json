@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "eslint": "eslint --ext .ts --ext .tsx --color ./",
+    "prettier-check-ts": "prettier --check ./**/*.ts*",
+    "prettier-check-js": "prettier --check ./**/*.js*",
+    "prettier-check-yaml": "prettier --write ./**/*.yaml",
+    "prettier-check-yml": "prettier --write ./**/*.yml",
+    "prettier-ts": "prettier --write ./**/*.ts*",
+    "prettier-js": "prettier --write ./**/*.js*",
+    "prettier-yaml": "prettier --write ./**/*.yaml",
+    "prettier-yml": "prettier --write ./**/*.yml"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.35",
+    "@typescript-eslint/eslint-plugin": "4.18.0",
+    "@typescript-eslint/parser": "4.18.0",
+    "eslint": "7.22.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.22.0",
+    "prettier": "2.2.1",
+    "typescript": "4.2.3"
+  }
+}
