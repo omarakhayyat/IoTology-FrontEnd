@@ -2362,6 +2362,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@socket.io/component-emitter@npm:~3.1.0":
+  version: 3.1.0
+  resolution: "@socket.io/component-emitter@npm:3.1.0"
+  checksum: 48e8c2c406431ad9fd227a04399a9978816f79b89dffdef3ed167c0011470b3fd28afcf6ac553b260e1574cc1f679695fcb7503af7095bc5697b8db20345bc01
+  languageName: node
+  linkType: hard
+
 "@surma/rollup-plugin-off-main-thread@npm:^1.1.1":
   version: 1.4.2
   resolution: "@surma/rollup-plugin-off-main-thread@npm:1.4.2"
@@ -6314,6 +6321,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"debug@npm:~4.3.1, debug@npm:~4.3.2":
+  version: 4.3.4
+  resolution: "debug@npm:4.3.4"
+  dependencies:
+    ms: 2.1.2
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 7d71c93be25ed05e85840ec12df1a6d1848adbf8bc66948017ad4120fed17d7889e305adec560c18d70710e6de0c55548fbed170f4355045bbbbbd2afd1532a2
+  languageName: node
+  linkType: hard
+
 "decamelize@npm:^1.1.2, decamelize@npm:^1.2.0":
   version: 1.2.0
   resolution: "decamelize@npm:1.2.0"
@@ -6944,25 +6963,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"engine.io-client@npm:~3.4.0":
-  version: 3.4.4
-  resolution: "engine.io-client@npm:3.4.4"
-  dependencies:
-    component-emitter: ~1.3.0
-    component-inherit: 0.0.3
-    debug: ~3.1.0
-    engine.io-parser: ~2.2.0
-    has-cors: 1.1.0
-    indexof: 0.0.1
-    parseqs: 0.0.6
-    parseuri: 0.0.6
-    ws: ~6.1.0
-    xmlhttprequest-ssl: ~1.5.4
-    yeast: 0.1.2
-  checksum: 9fc6c987d4191fa3ab67f223a0476690293f34dee8dcb31b245c4e081660e6896e0c4e563383b53546c4e2fd0d92d897b385e0bcbbdf80857596e7ca3a09c105
-  languageName: node
-  linkType: hard
-
 "engine.io-client@npm:~3.5.0":
   version: 3.5.0
   resolution: "engine.io-client@npm:3.5.0"
@@ -6982,6 +6982,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"engine.io-client@npm:~6.2.3":
+  version: 6.2.3
+  resolution: "engine.io-client@npm:6.2.3"
+  dependencies:
+    "@socket.io/component-emitter": ~3.1.0
+    debug: ~4.3.1
+    engine.io-parser: ~5.0.3
+    ws: ~8.2.3
+    xmlhttprequest-ssl: ~2.0.0
+  checksum: 99280fa952cd078e060483d1ab0a58f524934f1fb9baafb800b0930770a453f2bc0986b2c64f68424fe3d424b166e12b4119aca4ef6ba3dee358a101548e4e1a
+  languageName: node
+  linkType: hard
+
 "engine.io-parser@npm:~2.2.0":
   version: 2.2.1
   resolution: "engine.io-parser@npm:2.2.1"
@@ -6992,6 +7005,13 @@ __metadata:
     blob: 0.0.5
     has-binary2: ~1.0.2
   checksum: 486b996a7ed43a1e47bdc8d787c470632b28693e16d0f1f9134840a3f93483e1819b644b3971b3302370f115c8bb345cc2e821f61e22cfb38d0ab9a469593d78
+  languageName: node
+  linkType: hard
+
+"engine.io-parser@npm:~5.0.3":
+  version: 5.0.4
+  resolution: "engine.io-parser@npm:5.0.4"
+  checksum: af9892f261fe2ee9ca6629a472190ded9a9f4ae151e3fd78075fb969397cb694ff144ae59469f8a10d27107be12e608bccb052a318ce0d22e55c8d14b41a2e95
   languageName: node
   linkType: hard
 
@@ -8238,7 +8258,7 @@ __metadata:
     react-scripts: 4.0.3
     recharts: 2.0.8
     rss-parser: 3.12.0
-    socket.io-client: 2.3.1
+    socket.io-client: 4.5.3
     superagent: 6.1.0
     typeface-roboto: 1.1.13
     typescript: 4.2.3
@@ -15894,25 +15914,6 @@ resolve@1.18.1:
   languageName: node
   linkType: hard
 
-"socket.io-client@npm:2.3.1":
-  version: 2.3.1
-  resolution: "socket.io-client@npm:2.3.1"
-  dependencies:
-    backo2: 1.0.2
-    component-bind: 1.0.0
-    component-emitter: ~1.3.0
-    debug: ~3.1.0
-    engine.io-client: ~3.4.0
-    has-binary2: ~1.0.2
-    indexof: 0.0.1
-    parseqs: 0.0.6
-    parseuri: 0.0.6
-    socket.io-parser: ~3.3.0
-    to-array: 0.1.4
-  checksum: 7a06227b27e2a598be04809cb969714551f003a640fec93393d88a052f95e1a892cbdc183474b811df86498bcdda0001d9eeca8a9c28bc06e7a5032d8294e831
-  languageName: node
-  linkType: hard
-
 "socket.io-client@npm:2.4.0":
   version: 2.4.0
   resolution: "socket.io-client@npm:2.4.0"
@@ -15929,6 +15930,18 @@ resolve@1.18.1:
     socket.io-parser: ~3.3.0
     to-array: 0.1.4
   checksum: 75a8f9b69a0a47c41c9cff80fe5bfff02b7f75eefd4fdbe2f6b74ca0f0f408d3eccd734f5d8cc8c180859bb75b24fdb9f97110c36ac4015a0f4d2b41c891e99f
+  languageName: node
+  linkType: hard
+
+"socket.io-client@npm:4.5.3":
+  version: 4.5.3
+  resolution: "socket.io-client@npm:4.5.3"
+  dependencies:
+    "@socket.io/component-emitter": ~3.1.0
+    debug: ~4.3.2
+    engine.io-client: ~6.2.3
+    socket.io-parser: ~4.2.0
+  checksum: bceb61205ddbed4dae1a1bde8f85f6dd7298aaff38c036af33e7047d5381d7d4bca32081c782c5334038f85e5d2a5bc62cbc6c680fd7ba2657564af6b4f4e2dd
   languageName: node
   linkType: hard
 
@@ -15951,6 +15964,16 @@ resolve@1.18.1:
     debug: ~4.1.0
     isarray: 2.0.1
   checksum: 3c52dfe4c0d27a61e1d39cb71595af83867e9b4677a365683da6c00d58115ab8fbd5ff0907c53c1f0459ba9b919951846064fefc58afa751f6d15bd7388f6f42
+  languageName: node
+  linkType: hard
+
+"socket.io-parser@npm:~4.2.0":
+  version: 4.2.1
+  resolution: "socket.io-parser@npm:4.2.1"
+  dependencies:
+    "@socket.io/component-emitter": ~3.1.0
+    debug: ~4.3.1
+  checksum: 2fa5f536a8ccc7514001864dd754a40909ba56e3038d5a6d667fa5977970bcbe6165fe3a1b71c41fa468424d052c358cd58f016fa8b4c2fd12d6361ecd5c6f4e
   languageName: node
   linkType: hard
 
@@ -18405,12 +18428,18 @@ typescript@4.2.3:
   languageName: node
   linkType: hard
 
-"ws@npm:~6.1.0":
-  version: 6.1.4
-  resolution: "ws@npm:6.1.4"
-  dependencies:
-    async-limiter: ~1.0.0
-  checksum: 74c224573621110380d29e4c51b92eaec5f87c2fc779eb48873a60704e2ddebcaaadaa2ded3bc90a9b01bc453594dae7118c3c279c6ce6340334eb92c8ff04c2
+"ws@npm:~8.2.3":
+  version: 8.2.3
+  resolution: "ws@npm:8.2.3"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ^5.0.2
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 625a182d04d820421b4da685617b04c4660e19591522cfdd0f444346926b4e038b3498e332d139a75a1f64889ef5375c55f7b6ebb518980233f4ae04d8e0eaea
   languageName: node
   linkType: hard
 
@@ -18463,6 +18492,13 @@ typescript@4.2.3:
   version: 1.5.5
   resolution: "xmlhttprequest-ssl@npm:1.5.5"
   checksum: 8bb71857be6fa5536a12998b5a65c73f6f86d38404a08e373d16cbb96f334148b0afe0041bc91a9cff817552a6a1f855806145a7bf0ac0c4a7beaf40d9f5f282
+  languageName: node
+  linkType: hard
+
+"xmlhttprequest-ssl@npm:~2.0.0":
+  version: 2.0.0
+  resolution: "xmlhttprequest-ssl@npm:2.0.0"
+  checksum: 8002b7fa15f0a63d7c3589a9f0bffab6377710dd82a9d47706020a6b75c44bb4f358aebc021fde7343cf3edf9bc8feb1334f95ff113931f459c36858f06fdcfe
   languageName: node
   linkType: hard
 
