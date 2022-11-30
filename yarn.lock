@@ -4334,7 +4334,7 @@ __metadata:
     express: 4.17.1
     feathers-nedb: 5.1.0
     feathers-swagger: 1.2.1
-    helmet: 4.4.1
+    helmet: 6.0.1
     jest: 26.6.3
     jest-junit: 12.0.0
     nedb: 1.8.0
@@ -8819,10 +8819,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"helmet@npm:*, helmet@npm:4.4.1":
+"helmet@npm:*":
   version: 4.4.1
   resolution: "helmet@npm:4.4.1"
   checksum: 32f5ca0517368244198355bd289765c663e80a4a23795277043d87349e46d91a1d9e42ba8dcbd66debb866fbf73ca7fc14d5980f6647dea3ea87d3c6eb0040a5
+  languageName: node
+  linkType: hard
+
+"helmet@npm:6.0.1":
+  version: 6.0.1
+  resolution: "helmet@npm:6.0.1"
+  checksum: 53d2808905582540a2a22a0c6e2a5c4d0ff522a230f22c6433a40cbe92eccd8c9bbc0848497130ef262c9a0cec1224fd433a80924ea008e755239ec49a40c864
   languageName: node
   linkType: hard
 
